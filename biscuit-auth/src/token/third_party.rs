@@ -11,7 +11,7 @@ use crate::{
 };
 
 /// Third party block request
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct ThirdPartyRequest {
     pub(crate) previous_key: PublicKey,
 }
